@@ -1,0 +1,10 @@
+#查找⼩说⽹站最有意思的新书的所有的书的名字
+//div[@class='container']/div[@class='column'][2]//ul[@class='storylist']//p[@class='title']/a/text()
+#查找⼩说⽹站最有意思的新书的所有的书的图⽚的链接
+//div[@class='container']/div[@class='column'][2]//ul[@class='storylist']//div[@class='pic']/a/img/@src
+#作者
+//div[@class='container']/div[@class='column'][2]//span[@class='name']
+#字数
+//div[@class='container']/div[@class='column'][2]//div[@class='book-info']/p[1]/span
+#人气
+//div[@class='container']/div[@class='column'][2]//div[@class='book-info']/p[2]/span
